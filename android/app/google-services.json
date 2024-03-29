@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "923399616784",
+    "project_id": "ieada-templosede-app",
+    "storage_bucket": "ieada-templosede-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:923399616784:android:747125549e673f8ad40d95",
+        "android_client_info": {
+          "package_name": "com.mycompany.church"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSTMaXNTW3bSe8q1Sh8Fv8c7nIMdZZnnc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
