@@ -11,6 +11,7 @@ import 'package:provider/provider.dart';
 class LoginModel extends FlutterFlowModel<LoginWidget> {
   ///  State fields for stateful widgets in this page.
 
+  final unfocusNode = FocusNode();
   // State field(s) for insert-email widget.
   FocusNode? insertEmailFocusNode;
   TextEditingController? insertEmailController;
@@ -28,6 +29,7 @@ class LoginModel extends FlutterFlowModel<LoginWidget> {
 
   @override
   void dispose() {
+    unfocusNode.dispose();
     insertEmailFocusNode?.dispose();
     insertEmailController?.dispose();
 
